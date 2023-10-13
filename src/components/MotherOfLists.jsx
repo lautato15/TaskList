@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 
 import FormList from "./FormList";
-import ListOfLists from "./ListofLists";
+import ListOfLists from "./ListOfLists";
 
 const MotherOfLists = () => {
   const [show, setShow] = useState(false);
