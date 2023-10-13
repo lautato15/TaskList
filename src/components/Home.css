@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  animation: logo-spin 2s infinite;
+}
+.logo.redux:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.reduxTitle {
+  color: rgb(118, 74, 188);
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  padding: 2em;
+  min-width: 350px;
+}
+.divLists {
+  position: relative;
+  width: 100%;
+}
+.buttonDel {
+  position: absolute;
+  top: 37px;
+  right: 0px;
+}
+.colorOffCheck {
+  background-color: rgb(254, 135, 135);
+  border: 2px solid black;
+}
+.colorOnCheck {
+  background-color: rgb(135, 244, 171);
+  border: 1px solid black;
+}
